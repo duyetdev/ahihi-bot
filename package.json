@@ -4,18 +4,22 @@
   "description": "Ahihi chatbot :))",
   "main": "index.js",
   "dependencies": {
-    "botpress": "0.x",
+    "botpress": "10.20.1",
     "botpress-analytics": "^1.0.7",
     "botpress-broadcast": "^1.0.10",
     "botpress-hitl": "0.0.1",
     "botpress-messenger": "^1.0.16",
     "botpress-subscription": "^1.0.2",
-    "botpress-terminal": "^1.0.2"
+    "botpress-terminal": "^1.0.2",
+    "snyk": "^1.83.0"
   },
   "scripts": {
     "start": "botpress start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Van-Duyet Le",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "snyk": true
 }
