@@ -4,7 +4,7 @@
   "description": "Ahihi chatbot :))",
   "main": "index.js",
   "dependencies": {
-    "botpress": "0.x",
+    "botpress": "1.0.7",
     "botpress-analytics": "^1.0.7",
     "botpress-broadcast": "^1.0.10",
     "botpress-hitl": "0.0.1",
